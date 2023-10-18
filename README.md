@@ -1,3 +1,5 @@
+# A repository to play with branch protection rules 
+ 
 
 To prevent a PR to a branch that contains commits not in the mainline using GitHub branch protection rules, you can use the following steps:
 
