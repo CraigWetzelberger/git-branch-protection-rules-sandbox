@@ -4,12 +4,6 @@
 To prevent a PR to a branch that contains commits not in the mainline using GitHub branch protection rules, you can use the following steps:
 
 Go to your repository's Settings page.
-Click Branches.
-Click Add rule.
-Under Branch name pattern, type the name of the branch that you want to protect.
-Under Require linear history, select Yes.
-Click Add rule.
-This will create a branch protection rule that will require all pull requests to the branch to have a linear history. This means that all of the commits in the pull request must be descendants of the last commit on the mainline.
 
 If a pull request is submitted to the protected branch that does not have a linear history, the pull request will be rejected.
 
